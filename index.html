@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="no">
-// Versjon 6_4
     
 <head>
     <meta charset="UTF-8">
@@ -238,15 +237,12 @@
                 <div class="s-note" id="summaryWeekNote">Beregner…</div>
             </div>
         </div>
-        <div class="algo-note">
-            <strong>Algoritme:</strong> Ny VannTemp = Gammel VannTemp + 0.12 × (LuftTemp − Gammel VannTemp)
-        </div>
     </div>
 
     <!-- TEMPERATURE GRAPH -->
     <div class="card">
-        <h2>Målinger og historiske data</h2>
-        <p class="subtitle">Dine målinger sammenlignet med referansedata fra 2025</p>
+        <h2>Målinger og refereansedata</h2>
+        <p class="subtitle">Siste målinger og data fra vinteren 2025-2026</p>
         <div class="chart-wrapper">
             <canvas id="tempChart"></canvas>
         </div>
@@ -291,6 +287,7 @@
 
 </div>
 
+// Versjon 6_4
 <footer class="footer">
     Temperaturmodell basert på termodynamikk og historiske data fra 2025 &middot; Værdata: Meteorologisk Institutt / Yr.no
     Solinnstråling (Kasten-Czeplak, 60°N) som varmer vannet ekstra om sommeren. 
@@ -815,9 +812,9 @@ function formatDate(dateStr) {
 
 function tempNote(t) {
     if (t === 0) return '❄️ Islagt';
-    if (t < 10)  return 'Kaldt – kun for de tøffe!';
-    if (t < 16)  return 'Friskt, men badbart';
-    return 'Godt badetemperatur!';
+    if (t > 17)  return 'Varmt';
+    if (t < 10)  return 'Friskt';
+    return 'God svømmetur';
 }
 
 // ── STATE ─────────────────────────────────────────────────────────────────
