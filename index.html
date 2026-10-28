@@ -812,8 +812,6 @@ function formatDate(dateStr) {
 
 function tempNote(t) {
     if (t === 0) return '❄️ Islagt';
-    if (t > 17)  return 'Varmt';
-    if (t < 10)  return 'Friskt';
     return 'God svømmetur';
 }
 
@@ -838,9 +836,9 @@ if (!measurements || measurements.length === 0) {
 }
 measurements.sort((a, b) => new Date(b.date) - new Date(a.date));
 document.getElementById('measureDate').value = todayStr;
-document.getElementById('forecastSourceText').innerText = hasCustomData
-    ? 'Basert på Yr.no og din sist registrerte måling'
-    : 'Basert på Yr.no og fjorårets historiske temperatur for dagens dato';
+//document.getElementById('forecastSourceText').innerText = hasCustomData
+//    ? 'Basert på Yr.no og din sist registrerte måling'
+//    : 'Basert på Yr.no og fjorårets historiske temperatur for dagens dato';
 
 // ── CHART ─────────────────────────────────────────────────────────────────
 let tempChart = null;
