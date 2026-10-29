@@ -1117,7 +1117,7 @@ async function fetchWeatherData() {
 
     const hist_week = getHistoricalTempForDate(weekDateStr);
     document.getElementById('summaryWeekTemp').innerHTML = `${hist_week.toFixed(1)}<span> °C</span>`;
-    document.getElementById('summaryWeekNote').textContent = tempNote(hist_week) + ' (2025)';
+    document.getElementById('summaryWeekNote').textContent = tempNote(hist_week);
 }
 
 const dayTemps = {};
