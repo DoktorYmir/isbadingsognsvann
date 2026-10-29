@@ -8,15 +8,24 @@ Nettside som estimerer og visualiserer vanntemperaturen i Sognsvann gjennom høs
 
 ## Hva gjør siden?
 
-- Viser **estimert vanntemperatur i dag og om en uke**, basert på værmeldingen fra Yr.no
-- Bruker en **termodynamisk modell** der vanntemperaturen gradvis tilpasser seg lufttemperaturen:
+- Viser **estimert vanntemperatur i dag og om en uke**, basert på værmeldingen fra Yr.no og referansedata (målinger fra vinteren 2025/2026).
+- Bruker en **termodynamisk modell** for å estimere vanntemperaturen utfra værmeldingens lufttemperatur, solinnstråling og vind/is/snø.
   
-  > Ny VannTemp = Gammel VannTemp + 0,12 × (LuftTemp − Gammel VannTemp)
-
 - Henter **7-dagersprognose** med værikon basert på dagstimer (kl. 8–18) fra Meteorologisk Institutts API
-- Viser en **graf** med egne målinger fra 2026 sammenlignet med referansedata fra 2025
+- Viser en **graf** som viser lufttemperatur, og modellens estimat av vanntemperatur fra refereransedata. 
 - Grafen dekker perioden **1. august – 31. juli** med sesong-etikettene Høst / Vinter / Vår
 
+---
+
+## Modellen
+
+- Modellen er basert på sporadiske (nærmest ukentlige) målinger av vanntemperatur på Sognsvann gjennom høsten/vinteren 2025/2026 sett opp mot værdata fra mettrologisk institutt (UiO) sin målestasjon på Blindernlufttemperatur. 
+  
+- Perioder med is krever spesiell behandling.
+- Vind påvirker hvor raskt isen legger seg.
+- Snøisolasjon påvirker isvekst.
+- Isgang beregnes utfra hvor tykk isen har blitt i løpet av vinteren.
+- Termodynamikken tar utgangspunkt i vannets fysiske størrelse og baserer seg på et 2m dypt blandingslag (Termisk tidskonstant τ ≈ 6–7 dager)
 ---
 
 ## Filer i repoet
