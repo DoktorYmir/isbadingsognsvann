@@ -1202,6 +1202,11 @@ function renderDayCard(dateStr, airTemp, waterTemp, symbol, isToday) {
         else if (symbol.includes('rain')) emoji = '🌧️';
         else if (symbol.includes('snow')) emoji = '❄️';
     }
+
+    if (isToday && new Date().getHours() > 18) {
+        emoji = ''; // Skjuler ikonet helt etter kl 18 for dagens dato
+    }
+    
     const card = document.createElement('div');
     card.className = `day-card${isToday ? ' today' : ''}`;
     card.innerHTML = `
