@@ -1113,7 +1113,7 @@ async function fetchWeatherData() {
     // Fill summary with 2025 historical values
     const hist_today = getHistoricalTempForDate(todayStr);
     document.getElementById('summaryTodayTemp').innerHTML = `${hist_today.toFixed(1)}<span> °C</span>`;
-    document.getElementById('summaryTodayNote').textContent = tempNote(hist_today) + ' (2025)';
+    document.getElementById('summaryTodayNote').textContent = tempNote(hist_today);
 
     const hist_week = getHistoricalTempForDate(weekDateStr);
     document.getElementById('summaryWeekTemp').innerHTML = `${hist_week.toFixed(1)}<span> °C</span>`;
