@@ -1,0 +1,49 @@
+# Henter værmeldingen for Sognsvann fra MET (samme data som Yr.no) og lagrer
+# den som yr_forecast.json i repoet. Nettsiden leser denne filen ved oppstart.
+name: Hent værmelding
+
+on:
+  schedule:
+    # Hver dag kl. 04:00 UTC (05:00/06:00 norsk tid).
+    # Bare mandager: bytt til  - cron: '0 4 * * 1'
+    - cron: '0 4 * * *'
+  workflow_dispatch:   # gjør det mulig å kjøre manuelt fra Actions-fanen
+
+permissions:
+  contents: write
+
+jobs:
+  hent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Last ned værmelding fra api.met.no
+        run: |
+          # MET krever en User-Agent som identifiserer appen og en kontakt
+          curl --fail --silent --show-error --retry 3 --retry-delay 10 \
+            -A "isbadingsognsvann/1.0 github.com/DoktorYmir/isbadingsognsvann" \
+            "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=59.975&lon=10.730&altitude=183" \
+            -o raw.json
+          # Behold bare feltene nettsiden bruker (mindre fil, raskere lasting)
+          jq '{properties: {
+                meta: .properties.meta,
+                timeseries: [.properties.timeseries[] | {
+                  time,
+                  data: {
+                    instant: {details: (.data.instant.details | {air_temperature, cloud_area_fraction, wind_speed})},
+                    next_1_hours: (if .data.next_1_hours then {summary: .data.next_1_hours.summary} else null end),
+                    next_6_hours: (if .data.next_6_hours then {summary: .data.next_6_hours.summary} else null end)
+                  }
+                }]
+              }}' raw.json > yr_forecast.json
+          rm raw.json
+
+      - name: Lagre i repoet
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add yr_forecast.json
+          git diff --cached --quiet && echo "Ingen endring" && exit 0
+          git commit -m "Oppdater værmelding $(date -u +%Y-%m-%d)"
+          git push
