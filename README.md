@@ -2,7 +2,7 @@
 
 Nettside som estimerer og visualiserer vanntemperaturen i Sognsvann gjennom høst, vinter og vår.
 
-🌐 **Live side:** [sognsvann.netlify.app](https://sognsvann.netlify.app)
+🌐 **Live side:** [isbadetemp.netlify.app](https://isbadetemp.netlify.app)
 
 ---
 
@@ -10,10 +10,11 @@ Nettside som estimerer og visualiserer vanntemperaturen i Sognsvann gjennom høs
 
 - Viser **estimert vanntemperatur i dag og om en uke**, basert på værmeldingen fra Yr.no og referansedata (målinger fra vinteren 2025/2026).
 - Bruker en **termodynamisk modell** for å estimere vanntemperaturen utfra værmeldingens lufttemperatur, solinnstråling og vind/is/snø.
-  
-- Henter **7-dagersprognose** med værikon basert på dagstimer (kl. 8–18) fra Meteorologisk Institutts API
-- Viser en **graf** som viser lufttemperatur, og modellens estimat av vanntemperatur fra refereransedata. 
-- Grafen dekker perioden **1. august – 31. juli** med sesong-etikettene Høst / Vinter / Vår
+    
+- Henter **7-dagersprognose** med værikon basert på dagstimer (kl. 8–18) fra Meteorologisk Institutts API hver dag kl.04.
+- Viser værikon og estimert vanntemperatur for kommende uke.
+- Viser referansedata i form av en **graf** med lufttemperatur, og modellens estimat av vanntemperatur.  
+- Grafen dekker perioden **1. august – 31. juli** med sesong-etikettene Høst / Vinter / Vår og nye målinger plottes oppå denne grafen.
 
 ---
 
