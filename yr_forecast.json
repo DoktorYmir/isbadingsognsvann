@@ -1,7 +1,7 @@
 {
   "properties": {
     "meta": {
-      "updated_at": "2026-11-04T19:30:06Z",
+      "updated_at": "2026-11-05T04:29:36Z",
       "units": {
         "air_pressure_at_sea_level": "hPa",
         "air_temperature": "celsius",
@@ -14,194 +14,18 @@
     },
     "timeseries": [
       {
-        "time": "2026-11-04T20:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 1.7,
-              "cloud_area_fraction": 0.5,
-              "wind_speed": 2.1
-            }
-          },
-          "next_1_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          },
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          }
-        }
-      },
-      {
-        "time": "2026-11-04T21:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 2.4,
-              "cloud_area_fraction": 0.0,
-              "wind_speed": 1.5
-            }
-          },
-          "next_1_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          },
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          }
-        }
-      },
-      {
-        "time": "2026-11-04T22:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 2.3,
-              "cloud_area_fraction": 0.0,
-              "wind_speed": 0.9
-            }
-          },
-          "next_1_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          },
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          }
-        }
-      },
-      {
-        "time": "2026-11-04T23:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 2.0,
-              "cloud_area_fraction": 0.0,
-              "wind_speed": 0.9
-            }
-          },
-          "next_1_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          },
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          }
-        }
-      },
-      {
-        "time": "2026-11-05T00:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 1.4,
-              "cloud_area_fraction": 0.4,
-              "wind_speed": 0.9
-            }
-          },
-          "next_1_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          },
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          }
-        }
-      },
-      {
-        "time": "2026-11-05T01:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 1.2,
-              "cloud_area_fraction": 13.0,
-              "wind_speed": 1.4
-            }
-          },
-          "next_1_hours": {
-            "summary": {
-              "symbol_code": "fair_night"
-            }
-          },
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          }
-        }
-      },
-      {
-        "time": "2026-11-05T02:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 1.8,
-              "cloud_area_fraction": 15.0,
-              "wind_speed": 1.4
-            }
-          },
-          "next_1_hours": {
-            "summary": {
-              "symbol_code": "fair_night"
-            }
-          },
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "clearsky_night"
-            }
-          }
-        }
-      },
-      {
-        "time": "2026-11-05T03:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 1.6,
-              "cloud_area_fraction": 18.3,
-              "wind_speed": 1.2
-            }
-          },
-          "next_1_hours": {
-            "summary": {
-              "symbol_code": "fair_night"
-            }
-          },
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "fair_day"
-            }
-          }
-        }
-      },
-      {
         "time": "2026-11-05T04:00:00Z",
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.6,
-              "cloud_area_fraction": 12.9,
-              "wind_speed": 1.1
+              "air_temperature": 2.5,
+              "cloud_area_fraction": 15.3,
+              "wind_speed": 1.0
             }
           },
           "next_1_hours": {
             "summary": {
-              "symbol_code": "clearsky_night"
+              "symbol_code": "fair_night"
             }
           },
           "next_6_hours": {
@@ -216,14 +40,14 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 2.0,
-              "cloud_area_fraction": 11.8,
-              "wind_speed": 1.6
+              "air_temperature": 3.1,
+              "cloud_area_fraction": 14.2,
+              "wind_speed": 2.1
             }
           },
           "next_1_hours": {
             "summary": {
-              "symbol_code": "clearsky_night"
+              "symbol_code": "fair_night"
             }
           },
           "next_6_hours": {
@@ -238,9 +62,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 2.2,
-              "cloud_area_fraction": 0.1,
-              "wind_speed": 2.0
+              "air_temperature": 3.2,
+              "cloud_area_fraction": 2.6,
+              "wind_speed": 2.6
             }
           },
           "next_1_hours": {
@@ -260,9 +84,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 2.2,
-              "cloud_area_fraction": 0.3,
-              "wind_speed": 1.5
+              "air_temperature": 3.2,
+              "cloud_area_fraction": 6.7,
+              "wind_speed": 2.4
             }
           },
           "next_1_hours": {
@@ -282,19 +106,19 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 2.6,
-              "cloud_area_fraction": 28.0,
-              "wind_speed": 0.9
+              "air_temperature": 3.7,
+              "cloud_area_fraction": 45.8,
+              "wind_speed": 1.3
             }
           },
           "next_1_hours": {
             "summary": {
-              "symbol_code": "fair_day"
+              "symbol_code": "partlycloudy_day"
             }
           },
           "next_6_hours": {
             "summary": {
-              "symbol_code": "fair_day"
+              "symbol_code": "clearsky_day"
             }
           }
         }
@@ -304,9 +128,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 4.0,
-              "cloud_area_fraction": 62.0,
-              "wind_speed": 0.9
+              "air_temperature": 4.4,
+              "cloud_area_fraction": 45.7,
+              "wind_speed": 0.7
             }
           },
           "next_1_hours": {
@@ -326,9 +150,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 5.3,
-              "cloud_area_fraction": 36.4,
-              "wind_speed": 1.1
+              "air_temperature": 5.8,
+              "cloud_area_fraction": 18.3,
+              "wind_speed": 0.6
             }
           },
           "next_1_hours": {
@@ -348,9 +172,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 6.3,
-              "cloud_area_fraction": 3.2,
-              "wind_speed": 0.5
+              "air_temperature": 6.8,
+              "cloud_area_fraction": 0.0,
+              "wind_speed": 0.3
             }
           },
           "next_1_hours": {
@@ -370,9 +194,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 7.0,
+              "air_temperature": 7.7,
               "cloud_area_fraction": 0.0,
-              "wind_speed": 0.3
+              "wind_speed": 0.5
             }
           },
           "next_1_hours": {
@@ -392,9 +216,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 7.4,
+              "air_temperature": 7.9,
               "cloud_area_fraction": 0.0,
-              "wind_speed": 0.3
+              "wind_speed": 0.4
             }
           },
           "next_1_hours": {
@@ -414,9 +238,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 6.9,
-              "cloud_area_fraction": 0.3,
-              "wind_speed": 0.6
+              "air_temperature": 7.5,
+              "cloud_area_fraction": 0.2,
+              "wind_speed": 0.9
             }
           },
           "next_1_hours": {
@@ -436,9 +260,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 5.6,
-              "cloud_area_fraction": 0.5,
-              "wind_speed": 1.2
+              "air_temperature": 5.9,
+              "cloud_area_fraction": 1.2,
+              "wind_speed": 1.7
             }
           },
           "next_1_hours": {
@@ -458,9 +282,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 3.9,
-              "cloud_area_fraction": 1.2,
-              "wind_speed": 1.7
+              "air_temperature": 4.1,
+              "cloud_area_fraction": 1.8,
+              "wind_speed": 2.0
             }
           },
           "next_1_hours": {
@@ -480,9 +304,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 3.0,
-              "cloud_area_fraction": 0.9,
-              "wind_speed": 2.1
+              "air_temperature": 3.2,
+              "cloud_area_fraction": 0.2,
+              "wind_speed": 2.2
             }
           },
           "next_1_hours": {
@@ -502,9 +326,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 2.4,
+              "air_temperature": 2.5,
               "cloud_area_fraction": 0.0,
-              "wind_speed": 2.0
+              "wind_speed": 1.9
             }
           },
           "next_1_hours": {
@@ -524,9 +348,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.9,
+              "air_temperature": 2.2,
               "cloud_area_fraction": 0.0,
-              "wind_speed": 2.3
+              "wind_speed": 2.2
             }
           },
           "next_1_hours": {
@@ -548,7 +372,7 @@
             "details": {
               "air_temperature": 2.0,
               "cloud_area_fraction": 0.0,
-              "wind_speed": 2.2
+              "wind_speed": 2.3
             }
           },
           "next_1_hours": {
@@ -558,7 +382,7 @@
           },
           "next_6_hours": {
             "summary": {
-              "symbol_code": "fair_night"
+              "symbol_code": "clearsky_night"
             }
           }
         }
@@ -568,9 +392,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.8,
+              "air_temperature": 2.2,
               "cloud_area_fraction": 0.0,
-              "wind_speed": 2.3
+              "wind_speed": 2.4
             }
           },
           "next_1_hours": {
@@ -590,7 +414,7 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.6,
+              "air_temperature": 2.2,
               "cloud_area_fraction": 0.0,
               "wind_speed": 2.4
             }
@@ -612,9 +436,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.4,
+              "air_temperature": 1.9,
               "cloud_area_fraction": 0.0,
-              "wind_speed": 2.3
+              "wind_speed": 2.1
             }
           },
           "next_1_hours": {
@@ -634,9 +458,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.0,
+              "air_temperature": 1.3,
               "cloud_area_fraction": 0.0,
-              "wind_speed": 1.7
+              "wind_speed": 1.9
             }
           },
           "next_1_hours": {
@@ -656,9 +480,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.4,
-              "cloud_area_fraction": 5.1,
-              "wind_speed": 1.5
+              "air_temperature": 0.9,
+              "cloud_area_fraction": 1.6,
+              "wind_speed": 1.9
             }
           },
           "next_1_hours": {
@@ -678,9 +502,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.4,
-              "cloud_area_fraction": 76.9,
-              "wind_speed": 1.9
+              "air_temperature": 0.7,
+              "cloud_area_fraction": 60.9,
+              "wind_speed": 1.7
             }
           },
           "next_1_hours": {
@@ -690,7 +514,7 @@
           },
           "next_6_hours": {
             "summary": {
-              "symbol_code": "partlycloudy_night"
+              "symbol_code": "fair_night"
             }
           }
         }
@@ -701,8 +525,8 @@
           "instant": {
             "details": {
               "air_temperature": 0.4,
-              "cloud_area_fraction": 95.5,
-              "wind_speed": 2.1
+              "cloud_area_fraction": 92.9,
+              "wind_speed": 2.0
             }
           },
           "next_1_hours": {
@@ -722,9 +546,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.1,
-              "cloud_area_fraction": 93.8,
-              "wind_speed": 1.5
+              "air_temperature": 0.2,
+              "cloud_area_fraction": 89.5,
+              "wind_speed": 2.0
             }
           },
           "next_1_hours": {
@@ -744,8 +568,8 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.3,
-              "cloud_area_fraction": 71.6,
+              "air_temperature": -0.2,
+              "cloud_area_fraction": 43.9,
               "wind_speed": 1.6
             }
           },
@@ -756,7 +580,7 @@
           },
           "next_6_hours": {
             "summary": {
-              "symbol_code": "clearsky_day"
+              "symbol_code": "fair_day"
             }
           }
         }
@@ -766,14 +590,14 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.6,
-              "cloud_area_fraction": 14.7,
-              "wind_speed": 1.8
+              "air_temperature": -0.7,
+              "cloud_area_fraction": 0.1,
+              "wind_speed": 1.7
             }
           },
           "next_1_hours": {
             "summary": {
-              "symbol_code": "fair_night"
+              "symbol_code": "clearsky_night"
             }
           },
           "next_6_hours": {
@@ -788,9 +612,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.7,
-              "cloud_area_fraction": 0.1,
-              "wind_speed": 1.4
+              "air_temperature": -0.8,
+              "cloud_area_fraction": 0.0,
+              "wind_speed": 1.5
             }
           },
           "next_1_hours": {
@@ -810,9 +634,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.1,
+              "air_temperature": -0.2,
               "cloud_area_fraction": 0.0,
-              "wind_speed": 1.3
+              "wind_speed": 1.1
             }
           },
           "next_1_hours": {
@@ -832,8 +656,8 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.5,
-              "cloud_area_fraction": 0.1,
+              "air_temperature": 1.3,
+              "cloud_area_fraction": 0.9,
               "wind_speed": 0.7
             }
           },
@@ -854,14 +678,14 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 2.7,
-              "cloud_area_fraction": 1.3,
-              "wind_speed": 0.9
+              "air_temperature": 2.8,
+              "cloud_area_fraction": 41.2,
+              "wind_speed": 1.1
             }
           },
           "next_1_hours": {
             "summary": {
-              "symbol_code": "clearsky_day"
+              "symbol_code": "partlycloudy_day"
             }
           },
           "next_6_hours": {
@@ -876,14 +700,14 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 3.2,
-              "cloud_area_fraction": 22.9,
-              "wind_speed": 1.2
+              "air_temperature": 3.4,
+              "cloud_area_fraction": 58.2,
+              "wind_speed": 1.5
             }
           },
           "next_1_hours": {
             "summary": {
-              "symbol_code": "fair_day"
+              "symbol_code": "partlycloudy_day"
             }
           },
           "next_6_hours": {
@@ -899,7 +723,7 @@
           "instant": {
             "details": {
               "air_temperature": 3.6,
-              "cloud_area_fraction": 59.2,
+              "cloud_area_fraction": 58.7,
               "wind_speed": 1.5
             }
           },
@@ -920,9 +744,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 3.8,
-              "cloud_area_fraction": 78.3,
-              "wind_speed": 1.3
+              "air_temperature": 3.7,
+              "cloud_area_fraction": 66.9,
+              "wind_speed": 1.5
             }
           },
           "next_1_hours": {
@@ -942,9 +766,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 3.4,
-              "cloud_area_fraction": 80.6,
-              "wind_speed": 1.3
+              "air_temperature": 3.2,
+              "cloud_area_fraction": 79.2,
+              "wind_speed": 1.5
             }
           },
           "next_1_hours": {
@@ -965,7 +789,7 @@
           "instant": {
             "details": {
               "air_temperature": 2.1,
-              "cloud_area_fraction": 94.8,
+              "cloud_area_fraction": 92.4,
               "wind_speed": 1.2
             }
           },
@@ -986,8 +810,8 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.1,
-              "cloud_area_fraction": 94.0,
+              "air_temperature": 1.2,
+              "cloud_area_fraction": 94.7,
               "wind_speed": 1.1
             }
           },
@@ -1008,8 +832,8 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.5,
-              "cloud_area_fraction": 90.0,
+              "air_temperature": 0.7,
+              "cloud_area_fraction": 88.0,
               "wind_speed": 1.0
             }
           },
@@ -1030,9 +854,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.2,
-              "cloud_area_fraction": 90.2,
-              "wind_speed": 1.2
+              "air_temperature": 0.4,
+              "cloud_area_fraction": 94.2,
+              "wind_speed": 1.1
             }
           },
           "next_1_hours": {
@@ -1052,8 +876,8 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.2,
-              "cloud_area_fraction": 94.5,
+              "air_temperature": 0.3,
+              "cloud_area_fraction": 96.2,
               "wind_speed": 1.1
             }
           },
@@ -1062,7 +886,11 @@
               "symbol_code": "cloudy"
             }
           },
-          "next_6_hours": null
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          }
         }
       },
       {
@@ -1070,26 +898,8 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.1,
-              "cloud_area_fraction": 87.6,
-              "wind_speed": 1.1
-            }
-          },
-          "next_1_hours": {
-            "summary": {
-              "symbol_code": "cloudy"
-            }
-          },
-          "next_6_hours": null
-        }
-      },
-      {
-        "time": "2026-11-06T21:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": -0.1,
-              "cloud_area_fraction": 52.2,
+              "air_temperature": 0.2,
+              "cloud_area_fraction": 62.5,
               "wind_speed": 1.1
             }
           },
@@ -1098,7 +908,33 @@
               "symbol_code": "partlycloudy_night"
             }
           },
-          "next_6_hours": null
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-06T21:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": 0.0,
+              "cloud_area_fraction": 39.0,
+              "wind_speed": 1.1
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          },
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          }
         }
       },
       {
@@ -1106,8 +942,8 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.3,
-              "cloud_area_fraction": 44.6,
+              "air_temperature": 0.0,
+              "cloud_area_fraction": 47.7,
               "wind_speed": 1.0
             }
           },
@@ -1116,7 +952,11 @@
               "symbol_code": "partlycloudy_night"
             }
           },
-          "next_6_hours": null
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          }
         }
       },
       {
@@ -1124,8 +964,30 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.6,
-              "cloud_area_fraction": 44.6,
+              "air_temperature": -0.1,
+              "cloud_area_fraction": 49.2,
+              "wind_speed": 1.0
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          },
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-07T00:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": -0.3,
+              "cloud_area_fraction": 44.1,
               "wind_speed": 0.9
             }
           },
@@ -1134,23 +996,119 @@
               "symbol_code": "partlycloudy_night"
             }
           },
-          "next_6_hours": null
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          }
         }
       },
       {
-        "time": "2026-11-07T00:00:00Z",
+        "time": "2026-11-07T01:00:00Z",
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.9,
-              "cloud_area_fraction": 46.3,
-              "wind_speed": 0.7
+              "air_temperature": -0.5,
+              "cloud_area_fraction": 47.2,
+              "wind_speed": 0.9
             }
           },
-          "next_1_hours": null,
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          },
           "next_6_hours": {
             "summary": {
-              "symbol_code": "cloudy"
+              "symbol_code": "partlycloudy_night"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-07T02:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": -0.6,
+              "cloud_area_fraction": 47.7,
+              "wind_speed": 1.0
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          },
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-07T03:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": -0.7,
+              "cloud_area_fraction": 47.9,
+              "wind_speed": 1.0
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          },
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_day"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-07T04:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": -0.7,
+              "cloud_area_fraction": 57.7,
+              "wind_speed": 0.9
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          },
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_day"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-07T05:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": -0.8,
+              "cloud_area_fraction": 65.3,
+              "wind_speed": 0.8
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          },
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_day"
             }
           }
         }
@@ -1160,17 +1118,111 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.6,
-              "cloud_area_fraction": 94.5,
+              "air_temperature": -0.9,
+              "cloud_area_fraction": 65.8,
+              "wind_speed": 0.7
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          },
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_day"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-07T07:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": -1.1,
+              "cloud_area_fraction": 52.4,
+              "wind_speed": 0.7
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_day"
+            }
+          },
+          "next_6_hours": null
+        }
+      },
+      {
+        "time": "2026-11-07T08:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": -0.8,
+              "cloud_area_fraction": 48.6,
+              "wind_speed": 0.6
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_day"
+            }
+          },
+          "next_6_hours": null
+        }
+      },
+      {
+        "time": "2026-11-07T09:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": 0.5,
+              "cloud_area_fraction": 45.8,
               "wind_speed": 0.8
             }
           },
-          "next_1_hours": null,
-          "next_6_hours": {
+          "next_1_hours": {
             "summary": {
-              "symbol_code": "cloudy"
+              "symbol_code": "partlycloudy_day"
             }
-          }
+          },
+          "next_6_hours": null
+        }
+      },
+      {
+        "time": "2026-11-07T10:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": 1.4,
+              "cloud_area_fraction": 45.5,
+              "wind_speed": 1.1
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_day"
+            }
+          },
+          "next_6_hours": null
+        }
+      },
+      {
+        "time": "2026-11-07T11:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": 2.0,
+              "cloud_area_fraction": 51.8,
+              "wind_speed": 1.0
+            }
+          },
+          "next_1_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_day"
+            }
+          },
+          "next_6_hours": null
         }
       },
       {
@@ -1178,15 +1230,15 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.8,
-              "cloud_area_fraction": 33.6,
-              "wind_speed": 0.5
+              "air_temperature": 2.3,
+              "cloud_area_fraction": 54.1,
+              "wind_speed": 0.9
             }
           },
           "next_1_hours": null,
           "next_6_hours": {
             "summary": {
-              "symbol_code": "fair_day"
+              "symbol_code": "partlycloudy_day"
             }
           }
         }
@@ -1196,9 +1248,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.4,
-              "cloud_area_fraction": 88.3,
-              "wind_speed": 0.6
+              "air_temperature": -0.3,
+              "cloud_area_fraction": 100.0,
+              "wind_speed": 0.4
             }
           },
           "next_1_hours": null,
@@ -1214,9 +1266,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.4,
+              "air_temperature": -0.6,
               "cloud_area_fraction": 100.0,
-              "wind_speed": 0.5
+              "wind_speed": 0.4
             }
           },
           "next_1_hours": null,
@@ -1232,7 +1284,7 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -1.0,
+              "air_temperature": -1.1,
               "cloud_area_fraction": 100.0,
               "wind_speed": 0.6
             }
@@ -1250,8 +1302,8 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.3,
-              "cloud_area_fraction": 98.8,
+              "air_temperature": 0.7,
+              "cloud_area_fraction": 100.0,
               "wind_speed": 0.7
             }
           },
@@ -1268,9 +1320,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.3,
+              "air_temperature": 0.4,
               "cloud_area_fraction": 100.0,
-              "wind_speed": 0.6
+              "wind_speed": 0.7
             }
           },
           "next_1_hours": null,
@@ -1286,9 +1338,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.1,
+              "air_temperature": 0.8,
               "cloud_area_fraction": 100.0,
-              "wind_speed": 0.7
+              "wind_speed": 0.8
             }
           },
           "next_1_hours": null,
@@ -1304,9 +1356,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.1,
+              "air_temperature": 0.4,
               "cloud_area_fraction": 100.0,
-              "wind_speed": 0.7
+              "wind_speed": 1.0
             }
           },
           "next_1_hours": null,
@@ -1322,9 +1374,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.5,
-              "cloud_area_fraction": 96.9,
-              "wind_speed": 0.8
+              "air_temperature": 1.8,
+              "cloud_area_fraction": 94.5,
+              "wind_speed": 0.9
             }
           },
           "next_1_hours": null,
@@ -1340,15 +1392,15 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.6,
-              "cloud_area_fraction": 99.2,
-              "wind_speed": 0.8
+              "air_temperature": -0.4,
+              "cloud_area_fraction": 82.8,
+              "wind_speed": 1.0
             }
           },
           "next_1_hours": null,
           "next_6_hours": {
             "summary": {
-              "symbol_code": "cloudy"
+              "symbol_code": "partlycloudy_night"
             }
           }
         }
@@ -1359,8 +1411,8 @@
           "instant": {
             "details": {
               "air_temperature": -0.7,
-              "cloud_area_fraction": 66.8,
-              "wind_speed": 0.9
+              "cloud_area_fraction": 72.7,
+              "wind_speed": 1.1
             }
           },
           "next_1_hours": null,
@@ -1376,9 +1428,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -1.3,
-              "cloud_area_fraction": 76.6,
-              "wind_speed": 0.8
+              "air_temperature": -1.1,
+              "cloud_area_fraction": 78.5,
+              "wind_speed": 1.0
             }
           },
           "next_1_hours": null,
@@ -1394,9 +1446,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.9,
-              "cloud_area_fraction": 61.7,
-              "wind_speed": 0.9
+              "air_temperature": 1.4,
+              "cloud_area_fraction": 71.1,
+              "wind_speed": 1.2
             }
           },
           "next_1_hours": null,
@@ -1412,9 +1464,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.3,
-              "cloud_area_fraction": 93.7,
-              "wind_speed": 1.0
+              "air_temperature": 0.0,
+              "cloud_area_fraction": 89.8,
+              "wind_speed": 1.2
             }
           },
           "next_1_hours": null,
@@ -1430,9 +1482,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.2,
+              "air_temperature": 0.4,
               "cloud_area_fraction": 100.0,
-              "wind_speed": 1.3
+              "wind_speed": 1.4
             }
           },
           "next_1_hours": null,
@@ -1448,7 +1500,7 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 0.6,
+              "air_temperature": 0.5,
               "cloud_area_fraction": 100.0,
               "wind_speed": 1.7
             }
@@ -1466,9 +1518,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.8,
-              "cloud_area_fraction": 100.0,
-              "wind_speed": 1.7
+              "air_temperature": 1.6,
+              "cloud_area_fraction": 99.2,
+              "wind_speed": 1.8
             }
           },
           "next_1_hours": null,
@@ -1484,15 +1536,15 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.3,
-              "cloud_area_fraction": 100.0,
-              "wind_speed": 1.9
+              "air_temperature": 0.3,
+              "cloud_area_fraction": 63.3,
+              "wind_speed": 2.0
             }
           },
           "next_1_hours": null,
           "next_6_hours": {
             "summary": {
-              "symbol_code": "cloudy"
+              "symbol_code": "partlycloudy_night"
             }
           }
         }
@@ -1502,7 +1554,25 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.0,
+              "air_temperature": 0.2,
+              "cloud_area_fraction": 29.7,
+              "wind_speed": 2.4
+            }
+          },
+          "next_1_hours": null,
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "fair_night"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-12T06:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": -0.4,
               "cloud_area_fraction": 100.0,
               "wind_speed": 2.3
             }
@@ -1516,31 +1586,13 @@
         }
       },
       {
-        "time": "2026-11-12T06:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 0.8,
-              "cloud_area_fraction": 100.0,
-              "wind_speed": 2.0
-            }
-          },
-          "next_1_hours": null,
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "sleet"
-            }
-          }
-        }
-      },
-      {
         "time": "2026-11-12T12:00:00Z",
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.5,
+              "air_temperature": 2.0,
               "cloud_area_fraction": 100.0,
-              "wind_speed": 2.1
+              "wind_speed": 2.3
             }
           },
           "next_1_hours": null,
@@ -1556,27 +1608,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.1,
+              "air_temperature": 0.7,
               "cloud_area_fraction": 100.0,
-              "wind_speed": 2.2
-            }
-          },
-          "next_1_hours": null,
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "sleet"
-            }
-          }
-        }
-      },
-      {
-        "time": "2026-11-13T00:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 1.1,
-              "cloud_area_fraction": 100.0,
-              "wind_speed": 2.3
+              "wind_speed": 2.1
             }
           },
           "next_1_hours": null,
@@ -1588,12 +1622,48 @@
         }
       },
       {
+        "time": "2026-11-13T00:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": 0.5,
+              "cloud_area_fraction": 13.7,
+              "wind_speed": 2.1
+            }
+          },
+          "next_1_hours": null,
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "fair_night"
+            }
+          }
+        }
+      },
+      {
         "time": "2026-11-13T06:00:00Z",
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.2,
-              "cloud_area_fraction": 40.6,
+              "air_temperature": -1.3,
+              "cloud_area_fraction": 37.5,
+              "wind_speed": 2.3
+            }
+          },
+          "next_1_hours": null,
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "fair_day"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-13T12:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": 1.7,
+              "cloud_area_fraction": 57.8,
               "wind_speed": 2.3
             }
           },
@@ -1606,37 +1676,19 @@
         }
       },
       {
-        "time": "2026-11-13T12:00:00Z",
-        "data": {
-          "instant": {
-            "details": {
-              "air_temperature": 1.3,
-              "cloud_area_fraction": 99.2,
-              "wind_speed": 2.5
-            }
-          },
-          "next_1_hours": null,
-          "next_6_hours": {
-            "summary": {
-              "symbol_code": "cloudy"
-            }
-          }
-        }
-      },
-      {
         "time": "2026-11-13T18:00:00Z",
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.2,
-              "cloud_area_fraction": 31.2,
-              "wind_speed": 2.8
+              "air_temperature": -0.7,
+              "cloud_area_fraction": 45.3,
+              "wind_speed": 2.3
             }
           },
           "next_1_hours": null,
           "next_6_hours": {
             "summary": {
-              "symbol_code": "fair_night"
+              "symbol_code": "partlycloudy_night"
             }
           }
         }
@@ -1646,9 +1698,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.7,
-              "cloud_area_fraction": 94.9,
-              "wind_speed": 2.2
+              "air_temperature": -0.9,
+              "cloud_area_fraction": 99.2,
+              "wind_speed": 2.1
             }
           },
           "next_1_hours": null,
@@ -1664,15 +1716,15 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -1.1,
-              "cloud_area_fraction": 35.9,
-              "wind_speed": 2.0
+              "air_temperature": -0.7,
+              "cloud_area_fraction": 60.9,
+              "wind_speed": 2.2
             }
           },
           "next_1_hours": null,
           "next_6_hours": {
             "summary": {
-              "symbol_code": "fair_day"
+              "symbol_code": "partlycloudy_day"
             }
           }
         }
@@ -1682,9 +1734,9 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": 1.5,
-              "cloud_area_fraction": 28.9,
-              "wind_speed": 1.9
+              "air_temperature": 1.6,
+              "cloud_area_fraction": 33.2,
+              "wind_speed": 2.2
             }
           },
           "next_1_hours": null,
@@ -1700,9 +1752,27 @@
         "data": {
           "instant": {
             "details": {
-              "air_temperature": -0.6,
-              "cloud_area_fraction": 91.8,
-              "wind_speed": 2.3
+              "air_temperature": -0.9,
+              "cloud_area_fraction": 61.7,
+              "wind_speed": 2.2
+            }
+          },
+          "next_1_hours": null,
+          "next_6_hours": {
+            "summary": {
+              "symbol_code": "partlycloudy_night"
+            }
+          }
+        }
+      },
+      {
+        "time": "2026-11-15T00:00:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": -0.8,
+              "cloud_area_fraction": 46.5,
+              "wind_speed": 2.1
             }
           },
           "next_1_hours": null,
